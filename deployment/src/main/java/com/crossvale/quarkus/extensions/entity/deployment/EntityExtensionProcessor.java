@@ -1,11 +1,11 @@
-package io.quarkiverse.custom.deployment;
+package com.crossvale.quarkus.extensions.entity.deployment;
 
 import io.quarkus.deployment.annotations.BuildStep;
 import io.quarkus.deployment.builditem.FeatureBuildItem;
 
-class CustomProcessor {
+class EntityExtensionProcessor {
 
-    private static final String FEATURE = "custom";
+    private static final String FEATURE = "Support DDD Entities";
 
     @BuildStep
     FeatureBuildItem feature() {

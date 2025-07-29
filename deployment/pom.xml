@@ -3,21 +3,27 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.quarkiverse.custom</groupId>
-        <artifactId>quarkus-custom-parent</artifactId>
-        <version>999-SNAPSHOT</version>
+        <groupId>com.crossvale</groupId>
+        <artifactId>entity-extension-parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>quarkus-custom-deployment</artifactId>
-    <name>Quarkus Custom - Deployment</name>
+    <artifactId>entity-extension-deployment</artifactId>
+    <name>Entity Extension - Deployment</name>
 
     <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.18.0</version>
+        </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-arc-deployment</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.quarkiverse.custom</groupId>
-            <artifactId>quarkus-custom</artifactId>
+            <groupId>com.crossvale</groupId>
+            <artifactId>entity-extension</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>

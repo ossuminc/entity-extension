@@ -1,4 +1,4 @@
-package io.quarkiverse.custom.test;
+package com.crossvale.entity.extension.test;
 
 import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.jboss.shrinkwrap.api.spec.JavaArchive;
