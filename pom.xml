@@ -31,7 +31,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <quarkus.version>3.24.5</quarkus.version>
         <surefire-plugin.version>3.5.3</surefire-plugin.version>
-        <failsafe-plugin.version>3.5.3</failsafe-plugin.version>
+        <failsafe-plugin.version>3.5.4</failsafe-plugin.version>
     </properties>
 
     <dependencyManagement>
